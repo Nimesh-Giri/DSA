@@ -4,9 +4,9 @@ using namespace std;
 void pattern1(int n)
 {
     int i,j;
-    for(i= 0;i<n;i++)
+    for(i= n;i>0;i--)
     {
-        for(j=0;j<=i;j++)
+        for(j=i;j>0;j--)
         {
             cout<<"* ";
         }
